@@ -13,6 +13,12 @@ const message = createMessage("hi", "hello");
 
 messageContainer.innerHTML = message;
 
+// or this way
+
+function divCreator(className, innerValue) {
+    return `<div class="${className}">${innerValue}</div>`;
+}
+
 
 // Question 3
 
